@@ -59,7 +59,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, walletCount }) =
                 size="lg"
                 onClick={() => onNavigate('explore')}
                 icon={<Compass className="w-4 h-4 text-blue-200" />}
-                className="bg-white/10 text-white border-white/20 hover:bg-white/20 font-bold"
+                className="bg-white/10 text-blue-900 border-white/20 hover:bg-white/20 font-bold"
               >
                 Xem danh sách thẻ
               </Button>
