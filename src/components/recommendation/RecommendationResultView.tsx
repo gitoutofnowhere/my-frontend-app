@@ -65,7 +65,7 @@ export const RecommendationResultView: React.FC<RecommendationResultViewProps> =
             variant="outline"
             size="sm"
             onClick={onReset}
-            icon={<RotateCcw className="w-3.5 h-3.5" />}
+            icon={<RotateCcw className="w-3.5 h-3.5" text-blue-800/>}
             className="bg-white/10 text-blue-800 border-white/20 hover:bg-white/20 self-start md:self-center shrink-0 font-bold"
           >
             Tính khoản chi khác
