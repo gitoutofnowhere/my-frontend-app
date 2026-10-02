@@ -45,8 +45,8 @@ Cardy giải quyết vấn đề qua 5 mục chính:
 - **So sánh** — chọn một thẻ bất kỳ để so sánh với những thẻ hiện đang sở hữu trong Ví thẻ, để thấy mức độ tối ưu của ví thẻ hiện tại
 
 ## Tech Stack
-
-- **Frontend:** React + TypeScript + Vite
+Frontend được xây dựng tập trung vào hiệu suất và trải nghiệm người dùng:
+- **Core:** React + TypeScript + Vite
 - **Styling:** Tailwind CSS
 - **Quản lý trạng thái:** React hooks (useState, useEffect) — không dùng thư viện ngoài
 - **Dữ liệu:** Gọi API thật qua các hàm trong `api/cards`, `api/wallet` (không phải dữ liệu giả lập tĩnh)
