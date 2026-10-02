@@ -128,14 +128,14 @@ export const PurchaseAssistant: React.FC<PurchaseAssistantProps> = ({
     {
       label: '🛒 Shopee 2 Triệu',
       merchantId: 'SHOPEE',
-      cat: 'Online',
+      cat: 'E-commerce',
       amount: 2000000,
       pref: 'cashback',
     },
     {
       label: '🚗 Grab 150k',
       merchantId: 'GRAB',
-      cat: 'Dining',
+      cat: 'Ride Hailing',
       amount: 150000,
       pref: 'discount',
     },
