@@ -3,7 +3,8 @@
 Web app giúp người dùng biết nên dùng thẻ tín dụng nào cho từng loại chi tiêu để tối đa hóa điểm thưởng / hoàn tiền, đồng thời quản lý và so sánh các thẻ đang sở hữu.
 
 **Demo:** https://gitoutofnowhere.github.io/my-frontend-app/
-![Giao diện website](images_readme/Screenshot 2026-10-03 004121.png)
+
+![Giao diện website](images_readme/homepage.png)
 
 ## Problem
 
