@@ -438,7 +438,7 @@ export const PurchaseAssistant: React.FC<PurchaseAssistantProps> = ({
               icon={<ArrowRight className="w-4 h-4 text-white" />}
               className="w-full sm:w-auto"
             >
-              Card đi →
+              Card đi
             </Button>
           </div>
         </div>
