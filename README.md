@@ -3,6 +3,7 @@
 Web app giúp người dùng biết nên dùng thẻ tín dụng nào cho từng loại chi tiêu để tối đa hóa điểm thưởng / hoàn tiền, đồng thời quản lý và so sánh các thẻ đang sở hữu.
 
 **Demo:** https://gitoutofnowhere.github.io/my-frontend-app/
+![Giao diện website](images_readme/Screenshot 2026-10-03 004121.png)
 
 ## Problem
 
@@ -26,13 +27,16 @@ Cardy giải quyết vấn đề qua 5 mục chính:
 
 1. Vào mục **Gợi ý card**
 ![Giao diện tính năng Gợi ý thẻ](images_readme/rcm-01.png)
-3. Chọn danh mục chi tiêu (Ăn uống, Mua sắm tạp hóa, Du lịch, Xăng xe, Mua sắm...)
-4. Nhập số tiền dự kiến chi tiêu
+2. Chọn danh mục chi tiêu (Ăn uống, Mua sắm tạp hóa, Du lịch, Xăng xe, Mua sắm...)
+3. Nhập số tiền dự kiến chi tiêu
+![Chọn danh mục chi tiêu và kinh phí](images_readme/rcm-02.png)
 5. Hệ thống trả về **thẻ phù hợp nhất** trong ví của bạn cho danh mục đó, kèm:
    - Tỷ lệ hoàn thưởng áp dụng
    - Số điểm/tiền hoàn ước tính = `Số tiền × Tỷ lệ hoàn thưởng`
    - Giải thích lý do được chọn
 6. Có thể thêm thẻ vào ví hoặc xem chi tiết thẻ ngay từ kết quả gợi ý
+![Xem kết quả đề xuất](images_readme/rcm-result.png)
+
 
 **Logic xử lý:**
 - Nếu danh mục không có tỷ lệ ưu đãi riêng → áp dụng tỷ lệ mặc định
@@ -44,6 +48,8 @@ Cardy giải quyết vấn đề qua 5 mục chính:
 - **Tìm card mở mới** — tìm và xem chi tiết thẻ (phí thường niên, tỷ lệ hoàn thưởng từng danh mục, quyền lợi) trước khi quyết định thêm vào ví hoặc đưa vào so sánh
 - **Ví thẻ** — thêm hoặc gỡ thẻ khỏi ví cá nhân, ví là nguồn dữ liệu chính cho tính năng Gợi ý thẻ
 - **So sánh** — chọn một thẻ bất kỳ để so sánh với những thẻ hiện đang sở hữu trong Ví thẻ, để thấy mức độ tối ưu của ví thẻ hiện tại
+![Giao diện Ví thẻ](images_readme/wallet.png)
+
 
 ## Tech Stack
 Frontend được xây dựng tập trung vào hiệu suất và trải nghiệm người dùng:
