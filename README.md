@@ -25,13 +25,14 @@ Cardy giải quyết vấn đề qua 5 mục chính:
 Đây là tính năng cốt lõi của Cardy. Cách sử dụng:
 
 1. Vào mục **Gợi ý card**
-2. Chọn danh mục chi tiêu (Ăn uống, Mua sắm tạp hóa, Du lịch, Xăng xe, Mua sắm...)
-3. Nhập số tiền dự kiến chi tiêu
-4. Hệ thống trả về **thẻ phù hợp nhất** trong ví của bạn cho danh mục đó, kèm:
+![Giao diện tính năng Gợi ý thẻ](images_readme/rcm-01.png)
+3. Chọn danh mục chi tiêu (Ăn uống, Mua sắm tạp hóa, Du lịch, Xăng xe, Mua sắm...)
+4. Nhập số tiền dự kiến chi tiêu
+5. Hệ thống trả về **thẻ phù hợp nhất** trong ví của bạn cho danh mục đó, kèm:
    - Tỷ lệ hoàn thưởng áp dụng
    - Số điểm/tiền hoàn ước tính = `Số tiền × Tỷ lệ hoàn thưởng`
    - Giải thích lý do được chọn
-5. Có thể thêm thẻ vào ví hoặc xem chi tiết thẻ ngay từ kết quả gợi ý
+6. Có thể thêm thẻ vào ví hoặc xem chi tiết thẻ ngay từ kết quả gợi ý
 
 **Logic xử lý:**
 - Nếu danh mục không có tỷ lệ ưu đãi riêng → áp dụng tỷ lệ mặc định
