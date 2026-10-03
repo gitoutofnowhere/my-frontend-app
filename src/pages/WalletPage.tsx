@@ -68,7 +68,7 @@ export const WalletPage: React.FC<WalletPageProps> = ({
         <div>
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-800 text-xs font-bold border border-blue-200 mb-2">
             <Wallet className="w-3.5 h-3.5 text-blue-600" />
-            <span>Ví thẻ của bạn</span>
+            <span>Ví thẻ của tôi</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-display font-extrabold text-ink tracking-tight">
             Ví thẻ & Mẹo quẹt thông minh
