@@ -1,11 +1,6 @@
 import { apiClient } from './client';
 import { WalletCardOut, WalletOptimizationResult } from '../types/wallet';
 
-const sessionId = getOrCreateSessionId();
-fetch(`${API_URL}/wallet`, {
-  headers: { 'X-Session-Id': sessionId }
-});
-
 export async function getWallet(): Promise<WalletCardOut[]> {
   return apiClient<WalletCardOut[]>('/wallet');
 }
