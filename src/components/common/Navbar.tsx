@@ -105,7 +105,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               >
                 <option value={1}>Người dùng #1</option>
                 <option value={2}>Người dùng #2</option>
-                <option value={3}>Khách mới #3</option>
+                <option value={3}>Người dùng #3</option>
               </select>
             </div>
           </div>
